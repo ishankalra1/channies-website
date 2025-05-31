@@ -1,18 +1,22 @@
 import React from 'react';
+import { Users, ShieldCheck, TrendingUp } from 'lucide-react';
 
 const FeatureSection = () => {
   const features = [
     {
       title: "Client-Centered Approach",
-      description: "We believe in meeting you where you are and understanding your unique goals. Every financial plan we create is built around what truly matters to you."
+      description: "We believe in meeting you where you are and understanding your unique goals. Every financial plan we create is built around what truly matters to you.",
+      icon: <Users className="w-10 h-10 mx-auto mb-4" />
     },
     {
       title: "Experienced & Trustworthy",
-      description: "With nearly two decades of experience, we’ve guided hundreds with confidence. Our values are rooted in honesty, clarity, and long-term support."
+      description: "With nearly two decades of experience, we've guided hundreds with confidence. Our values are rooted in honesty, clarity, and long-term support.",
+      icon: <ShieldCheck className="w-10 h-10 mx-auto mb-4" />
     },
     {
       title: "Solutions with Stability",
-      description: "Your financial future deserves a steady hand and thoughtful planning. We design resilient strategies to help you move forward with peace of mind."
+      description: "Your financial future deserves a steady hand and thoughtful planning. We design resilient strategies to help you move forward with peace of mind.",
+      icon: <TrendingUp className="w-10 h-10 mx-auto mb-4" />
     }
   ];
 
@@ -24,11 +28,13 @@ const FeatureSection = () => {
             {features.map((feature, index) => (
               <div 
                 key={index} 
-                className="text-white py-8 px-5 xl:px-10 xl:py-20  relative"
+                className="text-white py-8 px-5 xl:px-10 xl:py-20 relative"
               >
                 {index !== 0 && (
                   <div className="absolute left-0 top-1/2 -translate-y-1/2 h-40 w-px bg-white/10 hidden md:block"></div>
                 )}
+                {/* Icon added here */}
+                {feature.icon}
                 <h3 className="text-[20px] mb-3 md:mb-4">
                   {feature.title}
                 </h3>

@@ -41,12 +41,22 @@ const Navbar = () => {
             </Link>
             
             {/* Desktop Navigation */}
-            <div className="hidden lg:flex space-x-8">
+            <div className="hidden lg:flex items-center space-x-8">
               <NavLink href="/" pathname={pathname} isSticky={isSticky}>Home</NavLink>
               <NavLink href="/services" pathname={pathname} isSticky={isSticky}>Services</NavLink>
               <NavLink href="/about-us" pathname={pathname} isSticky={isSticky}>About</NavLink>
               <NavLink href="/videos" pathname={pathname} isSticky={isSticky}>Videos</NavLink>
               <NavLink href="/contact-us" pathname={pathname} isSticky={isSticky}>Contact</NavLink>
+              <a 
+                href="https://calendly.com/channienak" 
+                target="_blank" 
+                rel="noopener noreferrer"
+                className={`bg-primary hover:bg-primary-dark text-white px-4 py-2 rounded-md font-medium transition-colors duration-200 ${
+                  isSticky ? 'text-white' : 'text-white'
+                }`}
+              >
+                Schedule a Consultation
+              </a>
             </div>
             
             {/* Mobile Menu Button */}
@@ -73,6 +83,14 @@ const Navbar = () => {
               <NavLink href="/about-us" pathname={pathname} isSticky={isSticky}>About</NavLink>
               <NavLink href="/videos" pathname={pathname} isSticky={isSticky}>Videos</NavLink>
               <NavLink href="/contact-us" pathname={pathname} isSticky={isSticky}>Contact</NavLink>
+              <a 
+                href="https://calendly.com/channienak" 
+                target="_blank" 
+                rel="noopener noreferrer"
+                className={`bg-primary hover:bg-primary-dark text-white px-4 py-2 rounded-md font-medium text-center transition-colors duration-200`}
+              >
+                Schedule a Consultation
+              </a>
             </div>
           </div>
         </div>
