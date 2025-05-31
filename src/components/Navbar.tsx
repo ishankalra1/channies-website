@@ -25,9 +25,8 @@ const Navbar = () => {
   return (
     <>
       {/* Single Navbar that becomes sticky */}
-      <nav className={`fixed top-0 left-0 w-full z-50 font-Poppins transition-all duration-300 ${
-        isSticky ? 'bg-white shadow-md' : 'bg-white'
-      }`}>
+      <nav className={`fixed top-0 left-0 w-full z-50 font-Poppins transition-all duration-300 ${isSticky ? 'bg-white shadow-md' : 'bg-white'
+        }`}>
         <div className="w-full px-4 md:px-6 lg:px-6 xl:px-10 2xl:px-0 max-w-sm md:max-w-3xl lg:max-w-4xl xl:max-w-6xl 2xl:max-w-7xl mx-auto">
           <div className="flex justify-between h-20 items-center">
             <Link href="/" className="text-2xl font-semibold hover:text-primary transition-colors">
@@ -39,29 +38,28 @@ const Navbar = () => {
                 className="h-12 w-auto"
               />
             </Link>
-            
+
             {/* Desktop Navigation */}
-            <div className="hidden lg:flex items-center space-x-8">
+            <div className="hidden xl:flex items-center space-x-8">
               <NavLink href="/" pathname={pathname} isSticky={isSticky}>Home</NavLink>
               <NavLink href="/services" pathname={pathname} isSticky={isSticky}>Services</NavLink>
               <NavLink href="/about-us" pathname={pathname} isSticky={isSticky}>About</NavLink>
               <NavLink href="/videos" pathname={pathname} isSticky={isSticky}>Videos</NavLink>
               <NavLink href="/contact-us" pathname={pathname} isSticky={isSticky}>Contact</NavLink>
-              <a 
-                href="https://calendly.com/channienak" 
-                target="_blank" 
+              <Link
+                href="https://calendly.com/channienak"
+                target="_blank"
                 rel="noopener noreferrer"
-                className={`bg-primary hover:bg-primary-dark text-white px-4 py-2 rounded-md font-medium transition-colors duration-200 ${
-                  isSticky ? 'text-white' : 'text-white'
-                }`}
+                className={`bg-primary hover:bg-primary-dark text-white px-4 py-2 rounded-md font-medium transition-colors duration-200 ${isSticky ? 'text-white' : 'text-white'
+                  }`}
               >
                 Schedule a Consultation
-              </a>
+              </Link>
             </div>
-            
+
             {/* Mobile Menu Button */}
             <button
-              className="lg:hidden p-2 focus:outline-none"
+              className="xl:hidden p-2 focus:outline-none"
               onClick={() => setIsOpen(!isOpen)}
               aria-label="Toggle menu"
             >
@@ -72,30 +70,29 @@ const Navbar = () => {
               )}
             </button>
           </div>
-          
+
           {/* Mobile Menu */}
-          <div className={`lg:hidden transition-all duration-300 overflow-hidden ${
-            isOpen ? 'max-h-96 py-4' : 'max-h-0 py-0'
-          }`}>
+          <div className={`xl:hidden transition-all duration-300 overflow-hidden ${isOpen ? 'max-h-96 py-4' : 'max-h-0 py-0'
+            }`}>
             <div className="flex flex-col space-y-4 px-4">
               <NavLink href="/" pathname={pathname} isSticky={isSticky}>Home</NavLink>
               <NavLink href="/services" pathname={pathname} isSticky={isSticky}>Services</NavLink>
               <NavLink href="/about-us" pathname={pathname} isSticky={isSticky}>About</NavLink>
               <NavLink href="/videos" pathname={pathname} isSticky={isSticky}>Videos</NavLink>
               <NavLink href="/contact-us" pathname={pathname} isSticky={isSticky}>Contact</NavLink>
-              <a 
-                href="https://calendly.com/channienak" 
-                target="_blank" 
+              <Link
+                href="https://calendly.com/channienak"
+                target="_blank"
                 rel="noopener noreferrer"
                 className={`bg-primary hover:bg-primary-dark text-white px-4 py-2 rounded-md font-medium text-center transition-colors duration-200`}
               >
                 Schedule a Consultation
-              </a>
+              </Link>
             </div>
           </div>
         </div>
       </nav>
-      
+
       {/* Spacer to prevent content from being hidden behind navbar */}
       <div className="h-20"></div>
     </>

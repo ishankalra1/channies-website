@@ -43,7 +43,7 @@ const HorizontalSections = () => {
             </div>
             
             {/* Content - Right side */}
-            <div className="w-full lg:w-1/2 p-6 lg:px-16 lg:py-20">
+            <div className="w-full lg:w-1/2 p-6 xl:px-16 lg:py-20">
               <h2 className="text-[18px] text-white/70 mb-2 font-OpenSans">
                 {section.title}
               </h2>
