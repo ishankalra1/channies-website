@@ -6,22 +6,22 @@ import Link from 'next/link';
 const HorizontalSections = () => {
   const sections = [
     {
-      image: '/images/41.jpg',
+      image: '/images/1.jpg',
       title: 'Press Release',
       subtitle: 'Helping Families Build Lasting Wealth with Channie Nak',
       content: [
         'Featured in Grit Daily, Channie shares her mission to guide families toward financial freedom and generational security.'
       ],
-      href: '/'
+      href: 'https://gritdaily.com/category/leadership/grit-dailys-top-picks/'
     },
     {
-      image: '/images/42.jpg',
+      image: '/images/2.jpg',
       title: 'Press Release',
       subtitle: 'Channie Nak Empowers Americans to Take Control of Their Financial Future',
       content: [
         'In CEOFFICIALMAG, Channie discusses actionable strategies for building a strong and secure financial foundation.'
       ],
-      href: '/'
+      href: 'https://ceofficialmag.com/'
     }
   ];
 
@@ -57,7 +57,7 @@ const HorizontalSections = () => {
                 ))}
               </div>
               
-              <Link href={section.href} className="flex justify-center items-center bg-[#101010] text-white px-10 py-2 rounded-[5px] text-[14px] mt-12">
+              <Link href={section.href} target='_blank' className="flex justify-center items-center bg-[#101010] text-white px-10 py-2 rounded-[5px] text-[14px] mt-12">
                 Read More 
               </Link>
             </div>

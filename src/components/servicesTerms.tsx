@@ -8,10 +8,10 @@ const ServicesTerms = () => {
                 <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 items-center">
                     <div className="relative h-80 md:h-96 lg:h-[500px]  overflow-hidden">
                         <Image
-                            src="/images/3.png"
+                            src="/images/removerbg-logo.png"
                             alt="About our company"
                             fill
-                            className="object-cover"
+                            className="object-contain"
                             priority
                         />
                     </div>

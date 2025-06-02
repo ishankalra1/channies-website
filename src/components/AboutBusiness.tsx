@@ -10,10 +10,10 @@ const AboutBusiness = () => {
           <div className=" overflow-hidden">
             <div className="relative w-full h-[300px] md:h-[500px]">
               <Image
-                src="/images/p2.jpg"
+                src="/images/14.jpg"
                 alt="Business showcase"
                 fill
-                className="object-cover "
+                className="object-contain "
                 priority
               />
             </div>

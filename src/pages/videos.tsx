@@ -6,18 +6,27 @@ const contactUs = () => {
   const videos = [
     {
       videoUrl: 'https://youtu.be/wIuRkUiDRL4',
-      title: 'Amazing Product Demo',
-      // description: 'See how our product can transform your workflow.'
+      title: 'Legacy Wealth: Protect What Matters Most',
     },
     {
-      videoUrl: 'https://youtu.be/9bZkp7q19f0',
-      title: 'Customer Testimonial',
-      // description: 'Hear what our customers say about our service.'
+      videoUrl: 'https://youtu.be/o8PoNsYyZgI',
+      title: 'How to Leverage Your Income for Long-Term Wealth',
     },
     {
-      videoUrl: 'https://www.youtube.com/embed/JGwWNGJdvx8',
-      title: 'How It Works',
-      // description: 'Detailed explanation of our technology.'
+      videoUrl: 'https://youtu.be/L_QwRWop3os',
+      title: 'Breaking Down Financial Myths: What You Really Need to Know',
+    },
+    {
+      videoUrl: 'https://youtu.be/9q19nfQ04l0',
+      title: 'Planning for the Future: Life Insurance & Wealth Building',
+    },
+    {
+      videoUrl: 'https://youtu.be/w-kls5vnx1M',
+      title: 'Why You Need a Financial Strategy, Not Just a Budget',
+    },
+    {
+      videoUrl: 'https://youtu.be/V4DiGkPPxKM',
+      title: 'Helping Families Achieve Financial Freedom',
     },
   ];
   return (

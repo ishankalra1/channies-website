@@ -77,7 +77,7 @@ const Footer = () => {
 
             <div className="flex items-center gap-4 pt-2">
               <a
-                href="https://www.instagram.com/channie.nak"
+                href="https://www.instagram.com/channie.nak/"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="text-white hover:text-primary transition-colors"

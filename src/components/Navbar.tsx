@@ -31,7 +31,7 @@ const Navbar = () => {
           <div className="flex justify-between h-20 items-center">
             <Link href="/" className="text-2xl font-semibold hover:text-primary transition-colors">
               <Image
-                src={isSticky ? "/images/logo-dark.png" : "/images/logo-dark.png"}
+                src={isSticky ? "/images/logo.png" : "/images/logo.png"}
                 alt="Max Writings Logo"
                 width={150}
                 height={50}

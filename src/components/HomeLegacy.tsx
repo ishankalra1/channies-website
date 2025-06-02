@@ -11,7 +11,7 @@ const HomeLegacy = () => {
                     {/* Image on left - takes half width */}
                     <div className="w-full lg:w-1/2 relative h-64 lg:h-[500px] mb-8 lg:mb-0">
                         <Image
-                            src="/images/61.png"
+                            src="/images/removerbg-logo.png"
                             alt="Legacy Wealth"
                             fill
                             className="object-contain object-left"
@@ -31,7 +31,7 @@ const HomeLegacy = () => {
                             </p>
 
                             <Link 
-                                href="/" 
+                                href="/about-us" 
                                 className="inline-flex items-center justify-center gap-2 bg-white text-[#101010] transition-colors text-sm md:text-[14px] font-medium px-6 md:px-10 py-2 md:py-3 w-[200px] rounded-[5px] hover:bg-[#101010] hover:text-white"
                             >
                                 <PlayCircle className="w-4 h-4 md:w-5 md:h-5" />

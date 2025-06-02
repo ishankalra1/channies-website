@@ -8,10 +8,10 @@ const AboutSection = () => {
                 <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 items-start">
                     <div className="relative h-80 md:h-96 lg:h-[500px]  overflow-hidden">
                         <Image
-                            src="/images/p1.jpg" 
+                            src="/images/12.jpg" 
                             alt="Channie Nak, Founder of Legacy Wealth Redefined"
                             fill
-                            className="object-cover"
+                            className="object-contain"
                             priority
                         />
                     </div>

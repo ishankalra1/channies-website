@@ -30,10 +30,10 @@ const AboutSection = () => {
 
                     <div className="relative h-80 md:h-96 lg:h-[500px]  overflow-hidden">
                         <Image
-                            src="/images/p3.jpg"
+                            src="/images/removerbg-logo.png"
                             alt="Channie Nak, Founder of Legacy Wealth Redefined"
                             fill
-                            className="object-cover"
+                            className="object-contain"
                             priority
                         />
                     </div>
