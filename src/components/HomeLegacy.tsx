@@ -9,9 +9,10 @@ const HomeLegacy = () => {
             <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
                 <div className="flex flex-col lg:flex-row items-center">
                     {/* Image on left - takes half width */}
-                    <div className="w-full lg:w-1/2 relative h-64 lg:h-[500px] mb-8 lg:mb-0">
+                    
+                    <div className="w-full lg:w-1/2 relative h-64 lg:h-[500px] mb-8 lg:mb-0 py-1 bg-white">
                         <Image
-                            src="/images/removerbg-logo.png"
+                            src="/images/logo.png"
                             alt="Legacy Wealth"
                             fill
                             className="object-contain object-left"

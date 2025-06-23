@@ -8,7 +8,7 @@ const HomePageHero = () => {
       <div 
         className="absolute inset-0 z-0 bg-repeat"
         style={{
-          backgroundImage: "url('/images/pattren37.png')",
+          backgroundImage: "url('/images/wp8596977.webp')",
           backgroundSize: 'auto'
         }}
       ></div>

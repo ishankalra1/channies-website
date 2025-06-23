@@ -5,28 +5,28 @@ import Head from 'next/head'
 const contactUs = () => {
   const videos = [
     {
-      videoUrl: 'https://youtu.be/wIuRkUiDRL4',
-      title: 'Legacy Wealth: Protect What Matters Most',
+      videoUrl: 'https://youtu.be/-9dgy5Ei5cY?si=9C3NWY8AZ2FgeRQb',
+      title: 'How to Take Advantage of the "Retirement Income Valley" for Roth Conversions',
     },
     {
-      videoUrl: 'https://youtu.be/o8PoNsYyZgI',
-      title: 'How to Leverage Your Income for Long-Term Wealth',
+      videoUrl: 'https://youtu.be/t3eHZT9Erxo?si=YSZARV8cd9P55se4',
+      title: 'Ed Slott IUL Tax Free Retirement',
     },
     {
-      videoUrl: 'https://youtu.be/L_QwRWop3os',
-      title: 'Breaking Down Financial Myths: What You Really Need to Know',
+      videoUrl: 'https://youtu.be/eNo9HLgbax0?si=gghekc7S8smE8muQ',
+      title: '401K Fallout 60 Minutes Segment',
     },
     {
-      videoUrl: 'https://youtu.be/9q19nfQ04l0',
-      title: 'Planning for the Future: Life Insurance & Wealth Building',
+      videoUrl: 'https://youtu.be/ec4zIGvl1PE',
+      title: 'New study reveals majority of Americans turning 65 soon are not financially prepared to retire',
     },
     {
-      videoUrl: 'https://youtu.be/w-kls5vnx1M',
-      title: 'Why You Need a Financial Strategy, Not Just a Budget',
+      videoUrl: 'https://youtu.be/ZT9NpPe0wRg',
+      title: 'Why it’s hard for Americans to retire',
     },
     {
-      videoUrl: 'https://youtu.be/V4DiGkPPxKM',
-      title: 'Helping Families Achieve Financial Freedom',
+      videoUrl: 'https://youtu.be/zmcpufAeCeM',
+      title: 'Expert on why more Americans are withdrawing from their 401(k) retirement funds early',
     },
   ];
   return (
