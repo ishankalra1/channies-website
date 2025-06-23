@@ -5,13 +5,13 @@ import Link from 'next/link';
 const ServicesBanner = () => {
     return (
         <div className="relative w-full min-h-[500px] md:min-h-[600px]">
-            <div className="absolute inset-0 z-0 bg-[url('/images/pattren37.png')] bg-repeat">
+            <div className="absolute inset-0 z-0 bg-[url('/images/wp8596977.webp')] bg-repeat">
                 <div className="absolute bottom-0 left-0 w-full md:w-1/2 h-3/4">
                     <Image
-                        src="/images/68.png"
+                        src="/images/channies-services.png"
                         alt="Service showcase"
                         fill
-                        className="object-contain object-bottom"
+                        className="object-contain object-bottom bg-left-bottom"
                         priority
                     />
                 </div>

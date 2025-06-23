@@ -12,7 +12,7 @@ const HorizontalSections = () => {
       content: [
         'Featured in Grit Daily, Channie shares her mission to guide families toward financial freedom and generational security.'
       ],
-      href: 'https://gritdaily.com/category/leadership/grit-dailys-top-picks/'
+      href: 'https://gritdaily.com/channie-nak-helping-people-build-lasting-wealth/'
     },
     {
       image: '/images/2.jpg',
@@ -21,29 +21,29 @@ const HorizontalSections = () => {
       content: [
         'In CEOFFICIALMAG, Channie discusses actionable strategies for building a strong and secure financial foundation.'
       ],
-      href: 'https://ceofficialmag.com/'
+      href: 'https://ceofficialmag.com/channie-nak-americans-take-control-of-wealth/'
     }
   ];
 
   return (
     <div className="w-full">
       {/* Main container with two horizontal sections */}
-      <div className="flex flex-col lg:flex-row w-full">
+      <div className="flex flex-col md:flex-row w-full">
         {sections.map((section, index) => (
           <div key={index} className="flex-1 flex flex-col lg:flex-row bg-[#1c1c1c] shadow-sm overflow-hidden">
-            {/* Image - Left side */}
-            <div className="w-full lg:w-1/2 h-48 lg:h-auto">
+            {/* Image - Full width on mobile, half width on desktop */}
+            <div className="w-full md:w-2/2 h-[600px] lg:h-auto">
               <Image
                 src={section.image}
                 alt={section.title}
                 width={600}
                 height={400}
-                className="w-full h-full object-cover"
+                className="w-full h-full lg:object-cover"
               />
             </div>
             
-            {/* Content - Right side */}
-            <div className="w-full lg:w-1/2 p-6 xl:px-16 lg:py-20">
+            {/* Content - Full width on mobile, half width on desktop */}
+            <div className="w-full md:w-2/2 p-6 xl:px-16 lg:py-20">
               <h2 className="text-[18px] text-white/70 mb-2 font-OpenSans">
                 {section.title}
               </h2>
