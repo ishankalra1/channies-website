@@ -1,6 +1,8 @@
 import Link from "next/link";
 import Image from "next/image";
 import { ChevronRight, Instagram, Facebook, Linkedin, Youtube } from "lucide-react";
+import { SocialIcon } from 'react-social-icons';
+import 'react-social-icons/tiktok'
 
 const Footer = () => {
   return (
@@ -11,7 +13,7 @@ const Footer = () => {
             <div>
               <Image
                 alt="Legacy Wealth Redefined Logo"
-                src="/images/logo.png"
+                src="/images/removerbg-logo.png"
                 width={150}
                 height={50}
                 className="h-12 w-auto"
@@ -35,7 +37,7 @@ const Footer = () => {
                 { href: "/services", label: "Services" },
                 { href: "/videos", label: "Videos" },
                 {
-                  href: "https://calendly.com/channienak",
+                  href: "https://go.oncehub.com/ChannieDiscovery",
                   label: "Schedule Consultation",
                   external: true
                 },
@@ -63,55 +65,38 @@ const Footer = () => {
                 <address>Office: 7150 E Camelback Road, Suite 444, Scottsdale, AZ 85251</address>
               </div>
               <div className="flex items-center gap-3">
-                <Link href="tel:+1 404-374-9678">+1 (404) 374-9678</Link>
+                <Link href="tel:+1 404-374-9678">Mobile: 404-374-9678</Link>
+              </div>
+              <div className="flex items-center gap-3">
+                <Link href="tel:+1 770-404-8647">Office: 770-404-8647</Link>
               </div>
               <div className="flex items-center gap-3">
                 <Link href="mailto:channienak@gmail.com">channienak@gmail.com</Link>
               </div>
               <div className="flex items-center gap-3">
-                <Link href="https://calendly.com/channienak" target="_blank">
+                <Link href="https://go.oncehub.com/ChannieDiscovery" target="_blank">
                   Schedule a Consultation
                 </Link>
               </div>
             </address>
 
             <div className="flex items-center gap-4 pt-2">
-              <a
-                href="https://www.instagram.com/channie.nak/"
+              <SocialIcon network="instagram"
+                url="https://www.instagram.com/legacywealthredefined"
                 target="_blank"
-                rel="noopener noreferrer"
-                className="text-white hover:text-primary transition-colors"
-                aria-label="Instagram"
-              >
-                <Instagram className="h-5 w-5" />
-              </a>
-              <a
-                href="https://www.facebook.com/channie.nak"
+                className="h-5 w-5" />
+              <SocialIcon network="facebook" className="h-5 w-5"
+                href="https://www.facebook.com/share/1AqKBYYcex/?mibextid=wwXIfr"
                 target="_blank"
-                rel="noopener noreferrer"
-                className="text-white hover:text-primary transition-colors"
-                aria-label="Facebook"
-              >
-                <Facebook className="h-5 w-5" />
-              </a>
-              <a
-                href="https://www.linkedin.com/in/channie-nak"
+              />
+              <SocialIcon network="linkedin" className="h-5 w-5"
+                href="https://www.linkedin.com/in/channie-nak-06a098104?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=ios_app"
                 target="_blank"
-                rel="noopener noreferrer"
-                className="text-white hover:text-primary transition-colors"
-                aria-label="LinkedIn"
-              >
-                <Linkedin className="h-5 w-5" />
-              </a>
-              <a
-                href="https://www.tiktok.com/@channie.nak"
+              />
+              <SocialIcon network="tiktok" className="h-5 w-5"
+                href="https://www.tiktok.com/channienak"
                 target="_blank"
-                rel="noopener noreferrer"
-                className="text-white hover:text-primary transition-colors"
-                aria-label="TikTok"
-              >
-                <Youtube className="h-5 w-5" />
-              </a>
+              />
             </div>
           </div>
         </div>

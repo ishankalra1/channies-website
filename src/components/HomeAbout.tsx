@@ -6,7 +6,7 @@ const HomeAbout = () => {
     // { value: "600+ ", label: "Projects Completed", Icon: Eye },
     // { value: "725+ ", label: "Happy Clients", Icon: Search },
     // { value: "150+ ", label: "Community Workshops", Icon: Layers},
-    { value: "10+", label: "Years of Experience", Icon: Award },
+    { value: "", label: ""},
   ];
 
   return (
@@ -21,7 +21,7 @@ const HomeAbout = () => {
           </p>
         </div>
 
-        <div className="grid grid-cols-1  gap-8 justify-center items-center">
+        {/* <div className="grid grid-cols-1  gap-8 justify-center items-center">
           {stats.map((stat, index) => {
             const IconComponent = stat.Icon;
             return (
@@ -36,7 +36,7 @@ const HomeAbout = () => {
               </div>
             );
           })}
-        </div>
+        </div> */}
       </div>
     </div>
   );

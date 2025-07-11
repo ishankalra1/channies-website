@@ -12,7 +12,7 @@ const HorizontalSections = () => {
       content: [
         'Featured in Grit Daily, Channie shares her mission to guide families toward financial freedom and generational security.'
       ],
-      href: 'https://gritdaily.com/channie-nak-helping-people-build-lasting-wealth/'
+      href: 'https://ceofficialmag.com/channie-nak-americans-take-control-of-wealth/'
     },
     {
       image: '/images/2.jpg',
@@ -21,7 +21,7 @@ const HorizontalSections = () => {
       content: [
         'In CEOFFICIALMAG, Channie discusses actionable strategies for building a strong and secure financial foundation.'
       ],
-      href: 'https://ceofficialmag.com/channie-nak-americans-take-control-of-wealth/'
+      href: 'https://gritdaily.com/channie-nak-helping-people-build-lasting-wealth/'
     }
   ];
 

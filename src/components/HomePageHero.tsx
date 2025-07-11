@@ -17,7 +17,7 @@ const HomePageHero = () => {
         <div className="w-full lg:grid lg:grid-cols-2 gap-8">
             <div className="relative h-80 lg:h-full overflow-hidden">
             <Image
-              src="/images/channiesImg.png"
+              src="/images/channies .jpg"
               alt="Content"
               fill
               className="object-contain"

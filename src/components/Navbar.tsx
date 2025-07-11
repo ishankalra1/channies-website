@@ -47,7 +47,7 @@ const Navbar = () => {
               <NavLink href="/videos" pathname={pathname} isSticky={isSticky}>Videos</NavLink>
               <NavLink href="/contact-us" pathname={pathname} isSticky={isSticky}>Contact</NavLink>
               <Link
-                href="https://calendly.com/channienak"
+                href="https://go.oncehub.com/ChannieDiscovery"
                 target="_blank"
                 rel="noopener noreferrer"
                 className={`bg-primary hover:bg-primary-dark text-white px-4 py-2 rounded-md font-medium transition-colors duration-200 ${isSticky ? 'text-white' : 'text-white'
@@ -81,7 +81,7 @@ const Navbar = () => {
               <NavLink href="/videos" pathname={pathname} isSticky={isSticky}>Videos</NavLink>
               <NavLink href="/contact-us" pathname={pathname} isSticky={isSticky}>Contact</NavLink>
               <Link
-                href="https://calendly.com/channienak"
+                href="https://go.oncehub.com/ChannieDiscovery"
                 target="_blank"
                 rel="noopener noreferrer"
                 className={`bg-primary hover:bg-primary-dark text-white px-4 py-2 rounded-md font-medium text-center transition-colors duration-200`}

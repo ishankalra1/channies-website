@@ -8,7 +8,7 @@ const ServicesBanner = () => {
             <div className="absolute inset-0 z-0 bg-[url('/images/wp8596977.webp')] bg-repeat">
                 <div className="absolute bottom-0 left-0 w-full md:w-1/2 h-3/4">
                     <Image
-                        src="/images/channies-services.png"
+                        src="/images/9978c2f9-405b-44c4-a23c-ee8cad24354f.png"
                         alt="Service showcase"
                         fill
                         className="object-contain object-bottom bg-left-bottom"
